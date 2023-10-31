@@ -1,14 +1,19 @@
-![locadora auto](https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/4e2d534f-11cf-47ad-87f2-5652ecef9429)
-
+<p align="center">
+  <img src="https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/64938eeb-62a1-4496-90f1-a53d70c0f003" alt="Descrição da imagem">
+</p>
 O Seguinte projeto de um banco de dados relacional para uma locadora de veículos, incluindo a normalização das tabelas e a criação de uma view para facilitar a recuperação de informações relacionadas às locações, veículos e clientes. Esse design eficiente contribui para a integridade dos dados e facilita a consulta e a análise dos dados da locadora.
 
 <hr>
-1- Faça o modelo lógico de banco de dados relacional;
 
-![image](https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/0dfe7783-0c90-44f7-ac30-bc9881d22d50)
+<h1 align="center"> 1- Faça o modelo lógico de banco de dados relacional; </h1>
+<p align="center">
+  <img src="https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/0dfe7783-0c90-44f7-ac30-bc9881d22d50" alt="Descrição da imagem">
+</p>
 
+<hr>
 
-2- Escreva o script que cria as tabelas;
+<h1 align="center"> 2- Escreva o script que cria as tabelas; </h1>
+
 ```SQL
 -- Tabela Locações
 CREATE TABLE Locacoes (
@@ -42,7 +47,8 @@ CREATE TABLE Clientes (
 ```
 <hr> 
 
-3 - Crie uma view que seleciona todas as locações e seus respectivos veículos e clientes.
+<h1 align="center"> 3 - Crie uma view que seleciona todas as locações e seus respectivos veículos e clientes. </h1>
+
 ```SQL
 CREATE VIEW LocacoesVeiculosClientes AS
 SELECT
@@ -58,18 +64,23 @@ INNER JOIN
   Clientes c ON l.Cliente = c.CPF;
 
 ```
-![image](https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/1e2f5ef8-4227-432d-a31c-d5411eca9647)
+<p align="center">
+  <img src="https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/1e2f5ef8-4227-432d-a31c-d5411eca9647" alt="Descrição da imagem">
+</p>
+
 
 <hr> 
 
-Select com todas tabelas : 
+<h1 align="center"> Select com todas tabelas :  </h1>
 
-![image](https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/1200fd84-296d-4697-a19c-05551055b95c)
+<p align="center">
+  <img src="https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/1200fd84-296d-4697-a19c-05551055b95c" alt="Descrição da imagem">
+</p>
 
-<HR>
+<hr>
 
-
-
-![Cartaz laranja carro vintage](https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/02adf3da-2568-44b4-8145-b2df0b275cb5)
+<p align="center">
+  <img src="https://github.com/AndreFelipefer/LocadoraAutomovel/assets/129207232/6264913e-edc9-428c-b65a-f58aadf59787" alt="Descrição da imagem">
+</p>
 
 
